@@ -4,13 +4,20 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "dev:zpo": "turbo dev --filter=Zpo",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.7.4",
+    "@iconify-json/mdi": "^1.1.64",
+    "@iconify-json/svg-spinners": "^1.1.2",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.9.0",
