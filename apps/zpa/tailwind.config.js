@@ -19,7 +19,7 @@ module.exports = {
   },
   plugins: [
     iconsPlugin({
-      collections: getIconCollections("mdi", "svg-spinners"),
+      collections: getIconCollections(["mdi", "svg-spinners"]),
     }),
   ],
 };

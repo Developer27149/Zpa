@@ -1,10 +1,10 @@
 {
-  "name": "Zpo",
+  "name": "Zpa",
   "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "dev:zpo": "turbo dev --filter=Zpo",
+    "dev:zpa": "turbo dev --filter=Zpa",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
